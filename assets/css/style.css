@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-weight: 650;
+}
+
+.nav-link:hover{
+    color: green;
+    text-decoration: underline;
+    font-weight: 650;
+}
+
+.active{
+    color: green;
+    text-decoration: underline;
+    font-weight: 650;
+}
+
+/* --------------------------Global-------------------------- */
+.pt-cs {
+    padding-top: 130px;
+}
+
+/* --------------------------Beranda-------------------------- */
+
+.image-right-creative {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.text-benner {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.bg-jungle {
+    background-image: url('../image/logo/gambar-hutan.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.address {
+    font-size: 13px;
+    text-align: center;
+    color: white;
+}
+
+.tesk-description {
+    font-size: 13px;
+    text-align: justify;
+    color: white;
+}
+
+.title-youtube {
+    font-size: 50px;
+    text-align: justify;
+}
+
+.text-youtube {
+    font-size: 28px;
+    text-align: justify;
+}
+
+.btn-success {
+    align-self: flex;
+    padding: 10px 29px;
+    border: none;
+    background-color: #294B29;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* --------------------------Tentang Kami-------------------------- */
+.pt-cs-function{
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+.image-function{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.text-function {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.text-visi{
+    font-size: 14px;
+    text-align: justify;
+    }
+
+.text-misi{
+    font-size: 14px;
+    text-align: justify;
+    }
+
+
+/* --------------------------Artikel-------------------------- */
+.card-text {
+    max-width: 600px;
+    margin: 0px auto;
+}
+
+.btn-search {
+    height: 56px;
+    color: white;
+    background-color: #294B29;
+    transition: 0.5s;
+}
+
+.icon-search {
+    height: 56px;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+    line-height: 56px;
+    border-right: 0px;
+    background-color: #F2F2F2;
+}
+
+.btn-search:hover {
+    max-width: 143px;
+    height: 56px;
+    color: white;
+    font-weight: bold;
+    background-color: #294B29;
+}
+
+#search-news {
+    max-width: 824px;
+    height: 56px;
+    border-left: 0px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.card-cs {
+    border-radius: 15px;
+}
+
+.page-link-cs {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.page-link-child-cs {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* .bg-success {
+    background-color: #294B29"
+} */
+
+/* --------------------------Galeri-------------------------- */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery img {
+    margin-bottom: 14px;
+    padding: 7px;
+    transition: transform 0.2s;
+}
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* --------------------------Kontak-------------------------- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.contact-section {
+    width: 85%;
+}
+
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0px solid #7D7D7D;
+    border-radius: 4px;
+    outline: none;
+    background-color: #E6E6E6;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    align-self: flex-end;
+    padding: 10px 29px;
+    border: none;
+    background-color: #294B29;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
